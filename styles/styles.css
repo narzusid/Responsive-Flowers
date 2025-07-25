@@ -1,0 +1,25 @@
+
+/* Shared Styles */
+
+
+/*Nav Styles*/
+nav{
+display: flex;
+justify-content: space-between;
+width: 1140 px;
+height: 71 px;
+}
+ul li{
+   list-style: none;
+   
+   
+}
+.nav-items{
+   display: flex;
+   gap: 20px;
+}
+
+.nav-link{
+   text-decoration: none;
+   color: #8987A1;
+}
