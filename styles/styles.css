@@ -18,7 +18,7 @@ justify-content: space-between;
 width: 1140px;
 height: 71px;
 }
-ul li{
+nav ul li{
    list-style: none;
    
    
@@ -81,4 +81,47 @@ ul li{
 }
 .card-item-2{
    text-align: center;
+}
+/* Flower Styles*/
+.flo-title{
+   color: #000000;
+   font-size: 50px;
+}
+.flo-size{
+   width: 540px;
+   height: 521px;
+}
+.flo-item{
+   color:#a7a5a5 ;
+   gap: 10px;
+   font-size: 22px;
+   margin-bottom: 10px;
+}
+.flower{
+   display: flex;
+   justify-content: space-between;
+   width: 1140px;
+   height: 597px;
+   margin-top: 100px;
+}
+
+/* Badge Style*/
+.img-wrapper{
+   position: relative;
+   display: inline-block;
+   overflow: visible;
+}
+.main-img{
+   display: block;
+   
+}
+.badge-img{
+   position: absolute;
+   top: -80px;
+   right: -70px;
+   width: 200px;
+   height: 200px;
+   transform: rotate(45deg);
+   
+   
 }
