@@ -1,4 +1,13 @@
 
+.noto-serif{
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  
+  font-style: normal;
+  font-variation-settings:
+    "wdth" 100;
+}
+
 /* Shared Styles */
 
 
@@ -6,8 +15,8 @@
 nav{
 display: flex;
 justify-content: space-between;
-width: 1140 px;
-height: 71 px;
+width: 1140px;
+height: 71px;
 }
 ul li{
    list-style: none;
@@ -22,4 +31,54 @@ ul li{
 .nav-link{
    text-decoration: none;
    color: #8987A1;
+}
+/*Hero Styles*/
+.hero{
+   display: flex;
+   width: 1140px;
+   height: 461px;
+}
+.hero-title{
+
+   font-size: 65px;
+}
+.hero-description{
+   font-size: 22px;
+   color: #a7a5a5;
+   padding-top: 0px;
+}
+/* Plants Styles*/
+.plants{
+   width: 1140px;
+   height: 1186.88px;
+}
+.plants-item{
+   text-align: center;
+}
+.plants-title{
+   font-size: 50px;
+}
+.plants-des{
+   color: #a7a5a5;
+   font-size: 22px;
+}
+.plants-btn{
+   background-color: #E95A08;
+   border: none;
+   color: white;
+   width: 270px;
+   height: 50px;
+}
+.card-item{
+   width: 270px;
+   height: 484.94px;
+  display: flex;
+  gap: 20px;
+   
+}
+.card-item-1{
+   text-align: center;
+}
+.card-item-2{
+   text-align: center;
 }
