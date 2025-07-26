@@ -17,26 +17,44 @@ display: flex;
 justify-content: space-between;
 width: 1140px;
 height: 71px;
+margin: auto;
+padding-bottom: 117px;
 }
 nav ul li{
    list-style: none;
-   
-   
 }
 .nav-items{
    display: flex;
    gap: 20px;
 }
 
-.nav-link{
+.nav-link-1{
    text-decoration: none;
    color: #8987A1;
 }
+.nav-link-2{
+   text-decoration: none;
+   color: #8987A1;
+}
+.nav-link-3{
+   text-decoration: none;
+   color: #8987A1;
+}
+.nav-link-4{
+   text-decoration: none;
+   color: #8987A1;
+}
+
+
+
+
 /*Hero Styles*/
 .hero{
    display: flex;
    width: 1140px;
    height: 461px;
+   margin: auto;
+   
 }
 .hero-title{
 
@@ -51,6 +69,9 @@ nav ul li{
 .plants{
    width: 1140px;
    height: 1186.88px;
+   margin: auto;
+   padding-bottom: 117px;
+   
 }
 .plants-item{
    text-align: center;
@@ -90,6 +111,7 @@ nav ul li{
 .flo-size{
    width: 540px;
    height: 521px;
+   
 }
 .flo-item{
    color:#a7a5a5 ;
@@ -103,6 +125,7 @@ nav ul li{
    width: 1140px;
    height: 597px;
    margin-top: 100px;
+   margin: auto;
 }
 
 /* Badge Style*/
@@ -125,7 +148,11 @@ nav ul li{
 
 /* Deal Style*/
 .deal-item{
-   
+   width: 1440px;
+   height: 138px;
+   background-color: white;
+   margin: auto; 
+   padding-bottom: 120px;
 }
 .deal-title{
    font-size: 50px;
@@ -143,17 +170,18 @@ nav ul li{
    color: white;
    border-radius: 5px;
    text-align: center;
-   
+   overflow: hidden;
 }
 .bg-2{
    background-image: url('../assets/deal-ana.png');
    background-repeat: no-repeat;
    width: 367px;
    height: 201px;
-   border-radius: 5px;
+   border-radius: 10px;
    text-align: center;
    padding: 30px 20px;
    color: white;
+   overflow: hidden;
    
 }
 .bg-3{
@@ -162,7 +190,7 @@ nav ul li{
    width: 753px;
    height: 423.12px;
    border-radius: 10px;
-   
+   overflow: hidden;
    text-align: center;
    padding: 150px 20px;
    color: white;
@@ -173,9 +201,60 @@ nav ul li{
    width: 1140px;
    height: 423.12px;
    gap: 30px;
+   margin: auto;
 }
 .two-img{
    width: 367px;
    height: 423px;
    
 }
+/* Footer Section 1*/
+.bunch{
+   background-image: url('../assets/news-letter-bg.png');
+   width: 1440px;
+   height: 533px;
+   background-repeat: no-repeat;
+   margin: auto;
+   padding-bottom: 100px;
+}
+
+.email-btn{
+   width: 644px;
+   height: 48px;
+   background-color: white;
+   border: none;
+}
+.bunch-btn{
+   width: 186px;
+   height: 50px;
+   background-color: #E95A08;
+   border: none;
+   color: white;
+}
+.bunch-item{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   
+   
+}
+.all{
+   padding: 100px 40px;
+}
+
+/*Footer Section 2 Styles*/
+.footer{
+   background-color: white;
+   width: 1440px;
+   height: 384px;
+   
+}
+.foot{
+   display: flex;
+   justify-content: center;
+   width: 1120px;
+   height: 284px;
+   margin: auto;
+   
+}
+
